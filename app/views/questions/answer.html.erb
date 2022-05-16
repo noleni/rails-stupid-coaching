@@ -1,0 +1,12 @@
+
+
+
+<div class="container mt-5">
+  <div class="row d-flex justify-content-center">
+    <div class="col-sm-12 col-lg-4">
+    <p>Your question : <%= params[:answer]%></p>
+    <p>Coach Answer : <%= @coach_answer%></p>
+    <%= link_to 'ask another question', ask_path %>
+    </div>
+  </div>
+</div>
